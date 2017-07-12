@@ -16,7 +16,7 @@ public class CalculatorTest {
 	@Test
 	public void StringCalculator() {
 		
-		assertEquals(6 , cal.calculator("1:2,3") );
+		assertEquals(6.0 , cal.calculator("1:2,3") );
 		
 	}
 }
